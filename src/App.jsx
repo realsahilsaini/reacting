@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-// import UseRefScroll from "./Components/UseRefScroll";
-import RoutingPractice from "./Components/RoutingPractice";
+import APIPractice from "./Components/APIPractice";
+import { BrowserRouter } from "react-router-dom";
 
 // Functional component
 function App() {
@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
-      <RoutingPractice />
+      <BrowserRouter>
+        <APIPractice />
+      </BrowserRouter>
     </>
   );
 }
