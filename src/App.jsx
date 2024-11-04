@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-import APIPractice from "./Components/APIPractice";
-import { BrowserRouter } from "react-router-dom";
+import ContextAPI2 from "./Components/ContextAPI2";
 
 // Functional component
 function App() {
@@ -9,9 +8,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <APIPractice />
-      </BrowserRouter>
+      <ContextAPI2 />
     </>
   );
 }
