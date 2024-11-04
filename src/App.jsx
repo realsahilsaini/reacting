@@ -1,6 +1,5 @@
 import React from "react";
-
-import ErrorBoundary from "./Components/ErrorBoundary";
+import ErrorBoundaryFunctional from "./Components/ErrorBoundaryFunctional";
 
 // Functional component
 function App() {
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <>
-      <ErrorBoundary />
+      <ErrorBoundaryFunctional />
     </>
   );
 }
