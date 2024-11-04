@@ -1,6 +1,6 @@
 import React from "react";
 
-import ContextAPI2 from "./Components/ContextAPI2";
+import ErrorBoundary from "./Components/ErrorBoundary";
 
 // Functional component
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <ContextAPI2 />
+      <ErrorBoundary />
     </>
   );
 }
