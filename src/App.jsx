@@ -1,5 +1,5 @@
 import React from "react";
-import ErrorBoundaryFunctional from "./Components/ErrorBoundaryFunctional";
+import RollUpState from "./Components/RollUpState";
 
 // Functional component
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <ErrorBoundaryFunctional />
+      <RollUpState />
     </>
   );
 }
