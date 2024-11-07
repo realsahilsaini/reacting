@@ -1,5 +1,5 @@
 import React from "react";
-import ContextAPITheme from "./Components/ContextAPITHEME";
+import ContextAPIBulb from "./Components/ContextAPIBulb";
 
 // Functional component
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <ContextAPITheme />
+      <ContextAPIBulb />
     </>
   );
 }
