@@ -1,5 +1,5 @@
 import React from "react";
-import RollUpState from "./Components/RollUpState";
+import ContextAPITheme from "./Components/ContextAPITHEME";
 
 // Functional component
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <RollUpState />
+      <ContextAPITheme />
     </>
   );
 }
