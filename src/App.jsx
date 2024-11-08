@@ -1,5 +1,5 @@
 import React from "react";
-import ContextAPIBulb from "./Components/ContextAPIBulb";
+import Recoil from "./Components/Recoil";
 
 // Functional component
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <ContextAPIBulb />
+      <Recoil />
     </>
   );
 }
