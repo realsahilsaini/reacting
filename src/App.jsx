@@ -1,6 +1,5 @@
 import React from "react";
-import Recoil from "./Components/Recoil";
-import UseCounterComponent from "./Components/UseCounterComponent";
+import UseFetchComponent from "./Components/UseFetchComponent";
 
 // Functional component
 function App() {
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <>
-      <UseCounterComponent />
+      <UseFetchComponent />
     </>
   );
 }
