@@ -1,5 +1,5 @@
 import React from "react";
-import UseFetchComponent from "./Components/UseFetchComponent";
+import UseFetchReFetchComponent from "./Components/UseFetchReFetchComponent";
 
 // Functional component
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <UseFetchComponent />
+      <UseFetchReFetchComponent />
     </>
   );
 }
