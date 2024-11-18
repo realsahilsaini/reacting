@@ -6,6 +6,7 @@ import ClassComponentProps from "./Components/ClassComponentProps";
 import ClassComponentState from "./Components/ClassComponentState";
 import ClassComponentLifecycle from "./Components/ClassComponentLifecycle";
 import ClassComponentsEvents from "./Components/ClassComponentsEvents";
+import UseDebounceComponent from "./Components/UseDebounceComponent";
 
 // Functional component
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-      <ClassComponentsEvents  />
+      <UseDebounceComponent  />
     </>
   );
 }
