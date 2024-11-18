@@ -6,12 +6,12 @@ const UseDebounceComponent = () => {
   const [input, setInput] = useState('');
   const [fetchData, setFetchData] = useState(null);
 
-  const debouncedInput = useDebounce(input, 1000);
+  const debouncedInput = useDebounce(input, 600);
 
   
   
   useEffect(()=>{
-    console.log("Printed after 500ms of inactivity Component: ", debouncedInput);
+    console.log("Printed after 600ms of inactivity Component: ", debouncedInput);
 
     console.log(typeof debouncedInput);
     
