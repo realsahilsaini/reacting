@@ -7,6 +7,7 @@ import ClassComponentState from "./Components/ClassComponentState";
 import ClassComponentLifecycle from "./Components/ClassComponentLifecycle";
 import ClassComponentsEvents from "./Components/ClassComponentsEvents";
 import UseDebounceComponent from "./Components/UseDebounceComponent";
+import UseIsOnlineComponent from "./Components/UseIsOnlineComponent";
 
 // Functional component
 function App() {
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <>
-      <UseDebounceComponent  />
+      <UseIsOnlineComponent  />
     </>
   );
 }
