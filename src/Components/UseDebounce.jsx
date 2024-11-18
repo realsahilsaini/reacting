@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 const UseDebounce = (value, delay=1000) => {
 
   // const refData = useRef();
-  const [debouncedData, setDebouncedData] = useState(value);
+  const [debouncedData, setDebouncedData] = useState('');
 
   useEffect(()=>{
 
