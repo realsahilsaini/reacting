@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
-import { RecoilRoot, useRecoilValue, useSetRecoilState } from 'recoil';
+import { RecoilRoot, useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import { counterAtom } from '../store/atoms/counter';
 
 const RecoilPractice = () => {
@@ -40,7 +40,16 @@ function Counter(){
 }
 
 function Currentcount(){
+  //This is a hook that allows you to access the value of the atom
   const count = useRecoilValue(counterAtom);
+
+  //This is a hook that allows you to set the value of the atom
+  // const setCount = useSetRecoilState(counterAtom);
+
+  //This is a hook that allows you to access and set the value of the atom
+  // const [count, setCount] = useRecoilState(counterAtom);
+
+
   return (
     <p className='text-white text-4xl font-semibold mx-auto'>{count}
     </p>
