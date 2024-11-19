@@ -1,5 +1,5 @@
 import React from "react";
-import RecoilPractice from "./Components/RecoilPractice";
+import Memo from "./Components/Memo";
 
 // Functional component
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <RecoilPractice  />
+      <Memo  />
     </>
   );
 }
